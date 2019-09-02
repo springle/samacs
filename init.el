@@ -11,6 +11,7 @@
 (load-chunk "opt/flycheck.el")
 (load-chunk "opt/keychord.el")
 (load-chunk "opt/magit.el")
+(load-chunk "opt/org.el")
 ;;; init.el ends here
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

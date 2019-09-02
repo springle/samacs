@@ -16,6 +16,7 @@
    flycheck
    key-chord
    magit
+   org
    which-key
    ))
 ;;; packages.el ends here
