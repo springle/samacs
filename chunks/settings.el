@@ -3,6 +3,7 @@
 ;;; CODE:
 (setq
  auto-save-default -1
+ confirm-kill-emacs 'yes-or-no-p
  create-lockfiles -1
  inhibit-startup-screen +1
  make-backup-files -1
