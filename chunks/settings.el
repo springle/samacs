@@ -2,10 +2,10 @@
 ;;; COMMENTARY:
 ;;; CODE:
 (setq
+ auto-save-default -1
  create-lockfiles -1
  inhibit-startup-screen +1
  make-backup-files -1
- auto-save-default -1
  )
 (progn
   (menu-bar-mode -1)
