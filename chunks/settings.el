@@ -9,6 +9,5 @@
 (progn
   (menu-bar-mode -1)
   (tool-bar-mode -1)
-  (which-key-mode +1)
   )
 ;;; settings.el ends here
