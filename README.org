@@ -1,0 +1,3 @@
+* SAMACS
+
+Sam + Emacs = Samacs
