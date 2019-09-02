@@ -10,8 +10,8 @@
 ;; STEP 1 - load required chunks
 (load-chunk "packages.el")
 (load-chunk "settings.el")
-(load-chunk "evil.el")
 (load-chunk "keychord.el")
+(load-chunk "evil.el")
 
 ;; STEP 2 - load optional chunks
 (load-chunk "opt/flycheck.el")
