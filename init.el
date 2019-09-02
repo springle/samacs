@@ -7,7 +7,7 @@
   (load-file (expand-file-name file "~/.emacs.d/chunks/")))
 (load-chunk "packages.el")
 (load-chunk "settings.el")
-(load-chunk "opt/evil.el")
+(load-chunk "evil.el")
 (load-chunk "opt/flycheck.el")
 (load-chunk "opt/keychord.el")
 (load-chunk "opt/magit.el")

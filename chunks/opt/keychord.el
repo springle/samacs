@@ -2,6 +2,7 @@
 ;;; COMMENTARY:
 ;;; CODE:
 (require 'evil)
+
 (key-chord-mode +1)
 (key-chord-define evil-normal-state-map "jk" 'evil-force-normal-state)
 (key-chord-define evil-visual-state-map "jk" 'evil-normal-state)
