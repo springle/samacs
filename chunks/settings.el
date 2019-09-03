@@ -2,11 +2,11 @@
 ;;; COMMENTARY:
 ;;; CODE:
 (setq
- auto-save-default -1
+ auto-save-default nil
  confirm-kill-emacs 'yes-or-no-p
- create-lockfiles -1
- inhibit-startup-screen +1
- make-backup-files -1
+ create-lockfiles nil
+ inhibit-startup-screen t
+ make-backup-files nil
  )
 (progn
   (menu-bar-mode -1)
