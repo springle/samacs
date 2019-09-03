@@ -10,6 +10,8 @@
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
+(setq-default org-capture-templates
+ '(("i" "inbox" entry (file "~/org/inbox.org") "* TODO %?")))
 
 ;; Convenience keymaps
 (key-chord-define evil-normal-state-map " o"
