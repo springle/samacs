@@ -17,6 +17,7 @@
    key-chord
    magit
    org
+   smart-mode-line
    which-key
    ))
 ;;; packages.el ends here
