@@ -10,13 +10,14 @@
 ;; STEP 1 - load required chunks
 (load-chunk "packages.el")
 (load-chunk "settings.el")
-(load-chunk "keychord.el")
 (load-chunk "evil.el")
+(load-chunk "keymap.el")
 
 ;; STEP 2 - load optional chunks
 (load-chunk "opt/flycheck.el")
 (load-chunk "opt/magit.el")
 (load-chunk "opt/org.el")
+(load-chunk "opt/keychord.el")
 
 ;;; init.el ends here
 (custom-set-variables
